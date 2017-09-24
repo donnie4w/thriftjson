@@ -26,6 +26,8 @@
 <br/>主要修改点在是第二点：在service生成的client类中，有send_*** 方法，如blntest方法，客户需要调用 send_blntest方法发送请求数据，所以获取send_***方法输出的数据，
 作为服务端process的输入流数据。
 service中有***__result类 用在process返回数据后读取返回的数据。
+***
+thriftjson项目算是一个demo，为了方便测试，服务端采用springboot. 启动之后便可以curl模拟测试。
 
 ***
 **使用curl模拟客户端json请求**
